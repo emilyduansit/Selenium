@@ -15,9 +15,6 @@ namespace TestTrademe.Pages
         public static void gotoUrl()
         {
             driver.Navigate().GoToUrl("https://www.google.co.nz/");
-            driver.Manage().Window.Maximize();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-
         }
 
         public static void back()

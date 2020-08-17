@@ -12,7 +12,10 @@ namespace UnitTestProject
         [TestMethod]
         public void TestMethod1()
         {
-        
+            TestTrademe.Pages.PageInit.Homepage.gotomotor();
+            TestTrademe.Pages.PageInit.Motor.map();
+            TestTrademe.Pages.PageInit.Car.assermaplink();
+            TestTrademe.Pages.Browser.close();
         }
     }
 }

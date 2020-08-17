@@ -16,6 +16,11 @@ namespace TestTrademe.Pages
         private IWebElement motorcolink;
 
 
+        [FindsBy(How = How.CssSelector, Using = "a[href*='search?q=motor'")]
+        private IWebElement maplink;
+
+
+
 
         public void search()
         {
@@ -27,5 +32,26 @@ namespace TestTrademe.Pages
             Assert.IsTrue(Browser.driver.FindElement(By.CssSelector("a[href*='motorco']")).Displayed);
 
         }
+
+        public void lucky()
+        {
+            WebDriverWait wait = new WebDriverWait(Browser.driver, new TimeSpan(0, 0, 5));
+            wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector("a[href*='motorco']")));
+
+
+            Assert.IsTrue(Browser.driver.FindElement(By.CssSelector("a[href*='motorco.co.nz']")).Displayed);
+        }
+
+
+        public void map()
+        {
+            WebDriverWait wait = new WebDriverWait(Browser.driver, new TimeSpan(0, 0, 5));
+            wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector("a[tabindex='0']")));
+
+            maplink.Click();
+            
+        }
+
+
     }
 }

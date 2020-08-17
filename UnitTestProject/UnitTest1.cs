@@ -11,8 +11,8 @@ namespace UnitTestProject
         public void TestMotor()
         {
             TestTrademe.Pages.PageInit.Homepage.gotomotor();
-            TestTrademe.Pages.PageInit.Motor.search();
-            TestTrademe.Pages.Browser.close();
+            TestTrademe.Pages.PageInit.Motor.search();   
+            TestTrademe.Pages.Browser.back();
         }
     }
 }

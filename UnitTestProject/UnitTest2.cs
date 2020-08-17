@@ -13,7 +13,8 @@ namespace UnitTestProject
         public void TestMethod1()
         {
             TestTrademe.Pages.PageInit.Homepage.gotolucky();
-            TestTrademe.Pages.Browser.close();
+            TestTrademe.Pages.PageInit.Motor.lucky();
+            TestTrademe.Pages.Browser.back();
         }
     }
 }

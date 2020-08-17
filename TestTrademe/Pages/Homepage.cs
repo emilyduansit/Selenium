@@ -22,7 +22,9 @@ namespace TestTrademe.Pages
 
         public void gotomotor()
         {
-            Browser.gotoUrl();
+           Browser.gotoUrl();
+            Browser.driver.Manage().Window.Maximize();
+            Browser.driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
             searchinput.SendKeys("motor");
             googlesearchbtn.Click();
