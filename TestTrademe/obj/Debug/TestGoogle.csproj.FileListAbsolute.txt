@@ -28,4 +28,3 @@ C:\Users\Emily\Source\Repos\TestTrademe\TestTrademe\obj\Debug\TestGoogle.csproj.
 C:\Users\Emily\Source\Repos\TestTrademe\TestTrademe\obj\Debug\TestGoogle.csproj.CopyComplete
 C:\Users\Emily\Source\Repos\TestTrademe\TestTrademe\obj\Debug\TestTrademe.dll
 C:\Users\Emily\Source\Repos\TestTrademe\TestTrademe\obj\Debug\TestTrademe.pdb
-C:\Users\Emily\Source\Repos\TestTrademe\TestTrademe\obj\Debug\TestGoogle.csprojAssemblyReference.cache

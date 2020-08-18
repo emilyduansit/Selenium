@@ -8,6 +8,7 @@ namespace UnitTestProject
     public class UnitTest1
     {
         [TestMethod]
+        [System.Obsolete]
         public void TestMotor()
         {
             TestTrademe.Pages.PageInit.Homepage.gotomotor();

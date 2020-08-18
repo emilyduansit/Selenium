@@ -10,6 +10,7 @@ namespace UnitTestProject
     public class UnitTest2
     {
         [TestMethod]
+        [Obsolete]
         public void TestMethod1()
         {
             TestTrademe.Pages.PageInit.Homepage.gotolucky();
