@@ -23,7 +23,7 @@ namespace TestTrademe.Pages
         public void search()
         {
 
-            WebDriverWait wait = new WebDriverWait(Browser.driver, new TimeSpan(0, 0, 5));
+            WebDriverWait wait = new WebDriverWait(Browser.driver, new TimeSpan(0, 0, 15));
             wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector("a[href*='motorco']")));        
 
 
@@ -34,7 +34,7 @@ namespace TestTrademe.Pages
         [Obsolete]
         public void lucky()
         {
-            WebDriverWait wait = new WebDriverWait(Browser.driver, new TimeSpan(0, 0, 5));
+            WebDriverWait wait = new WebDriverWait(Browser.driver, new TimeSpan(0, 0, 15));
             wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector("a[href*='motorco']")));
 
 
