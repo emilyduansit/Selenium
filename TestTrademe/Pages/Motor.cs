@@ -38,7 +38,7 @@ namespace TestTrademe.Pages
             wait.Until(ExpectedConditions.ElementExists(By.CssSelector("a[href*='motor']")));
 
 
-            Assert.IsTrue(Browser.driver.FindElement(By.CssSelector("a[href*='motorco.co.nz']")).Displayed);
+            Assert.IsTrue(Browser.driver.FindElement(By.CssSelector("a[href*='motor']")).Displayed);
         }
 
         [Obsolete]
