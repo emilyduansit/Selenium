@@ -47,7 +47,7 @@ namespace TestTrademe.Pages
             WebDriverWait wait = new WebDriverWait(Browser.driver, new TimeSpan(0, 0, 10));
             wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector("a[tabindex='0']")));
 
-            maplink.Click();//
+            maplink.Click();////
             
         }
 
