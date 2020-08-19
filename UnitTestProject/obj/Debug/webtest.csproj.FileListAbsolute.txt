@@ -1,3 +1,4 @@
+C:\Users\Emily\Source\Repos\TestTrademe\UnitTestProject\bin\Debug\chromedriver.exe
 C:\Users\Emily\Source\Repos\TestTrademe\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\Emily\Source\Repos\TestTrademe\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\Emily\Source\Repos\TestTrademe\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -31,7 +32,6 @@ C:\Users\Emily\Source\Repos\TestTrademe\UnitTestProject\bin\Debug\Utf8Json.xml
 C:\Users\Emily\Source\Repos\TestTrademe\UnitTestProject\bin\Debug\Google.Protobuf.pdb
 C:\Users\Emily\Source\Repos\TestTrademe\UnitTestProject\bin\Debug\Google.Protobuf.xml
 C:\Users\Emily\Source\Repos\TestTrademe\UnitTestProject\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\Emily\Source\Repos\TestTrademe\UnitTestProject\obj\Debug\webtest.csprojAssemblyReference.cache
 C:\Users\Emily\Source\Repos\TestTrademe\UnitTestProject\obj\Debug\webtest.csproj.CoreCompileInputs.cache
 C:\Users\Emily\Source\Repos\TestTrademe\UnitTestProject\obj\Debug\webtest.csproj.CopyComplete
 C:\Users\Emily\Source\Repos\TestTrademe\UnitTestProject\obj\Debug\UnitTestProject.dll
