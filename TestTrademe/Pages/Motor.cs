@@ -35,7 +35,7 @@ namespace TestTrademe.Pages
         public void lucky()
         {
             WebDriverWait wait = new WebDriverWait(Browser.driver, new TimeSpan(0, 0, 15));
-            wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector("a[href*='motorco']")));
+            wait.Until(ExpectedConditions.ElementExists(By.CssSelector("a[href*='motor']")));
 
 
             Assert.IsTrue(Browser.driver.FindElement(By.CssSelector("a[href*='motorco.co.nz']")).Displayed);
