@@ -12,7 +12,7 @@ namespace TestTrademe.Pages
 {
     public class Motor
     {
-        [FindsBy(How = How.CssSelector, Using = "a[href*='motorco']']")]
+        [FindsBy(How = How.CssSelector, Using = "a[href*='motor']']")]
         private IWebElement motorcolink;
 
 
@@ -24,10 +24,10 @@ namespace TestTrademe.Pages
         {
 
             WebDriverWait wait = new WebDriverWait(Browser.driver, new TimeSpan(0, 0, 15));
-            wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector("a[href*='motorco']")));        
+            wait.Until(ExpectedConditions.ElementExists(By.CssSelector("a[href*='motor']")));        
 
 
-            Assert.IsTrue(Browser.driver.FindElement(By.CssSelector("a[href*='motorco']")).Displayed);
+            Assert.IsTrue(Browser.driver.FindElement(By.CssSelector("a[href*='motor']")).Displayed);
 
         }
 
