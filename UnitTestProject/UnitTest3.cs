@@ -11,7 +11,7 @@ namespace UnitTestProject
     {
         [TestMethod]
         [Obsolete]
-        public void TestMethod1()
+        public void TestImageKey()
         {
             TestTrademe.Pages.PageInit.Homepage.gotomotor();
             TestTrademe.Pages.PageInit.Motor.map();

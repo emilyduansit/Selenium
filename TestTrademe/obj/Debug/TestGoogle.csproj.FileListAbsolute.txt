@@ -1,3 +1,4 @@
+C:\Users\Emily\Source\Repos\TestTrademe\TestTrademe\bin\Debug\chromedriver.exe
 C:\Users\Emily\Source\Repos\TestTrademe\TestTrademe\bin\Debug\TestTrademe.dll
 C:\Users\Emily\Source\Repos\TestTrademe\TestTrademe\bin\Debug\TestTrademe.pdb
 C:\Users\Emily\Source\Repos\TestTrademe\TestTrademe\bin\Debug\BoDi.dll

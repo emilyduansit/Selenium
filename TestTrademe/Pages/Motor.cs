@@ -16,8 +16,8 @@ namespace TestTrademe.Pages
         private IWebElement motorcolink;
 
 
-        [FindsBy(How = How.CssSelector, Using = "a[href*='search?q=motor'")]
-        private IWebElement maplink;
+        [FindsBy(How = How.CssSelector, Using = "a[href*='search?q=motor']")]
+        private IWebElement imagelink;
 
         [Obsolete]
         public void search()
@@ -45,9 +45,9 @@ namespace TestTrademe.Pages
         public void map()
         {
             WebDriverWait wait = new WebDriverWait(Browser.driver, new TimeSpan(0, 0, 10));
-            wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector("a[tabindex='0']")));
+            wait.Until(ExpectedConditions.ElementExists(By.CssSelector("a[href*='search?q=motor']")));
 
-            maplink.Click();//////////
+            imagelink.Click();
             
         }
 

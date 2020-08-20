@@ -11,7 +11,7 @@ namespace UnitTestProject
     {
         [TestMethod]
         [Obsolete]
-        public void TestMethod1()
+        public void TestLucky()
         {
             TestTrademe.Pages.PageInit.Homepage.gotolucky();
             TestTrademe.Pages.PageInit.Motor.lucky();

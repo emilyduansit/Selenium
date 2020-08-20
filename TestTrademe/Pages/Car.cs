@@ -12,13 +12,13 @@ namespace TestTrademe.Pages
     public class Car
     {
 
-        [FindsBy(How = How.CssSelector, Using = "a[tabindex='0']")]
-        private IWebElement maplink;
+        [FindsBy(How = How.CssSelector, Using = "a[href*='search?q=motor']")]
+        private IWebElement imagelink;
 
         public void assermaplink()
         {
 
-            Assert.IsTrue(Browser.driver.FindElement(By.CssSelector("a[tabindex='0']")).Displayed);
+            Assert.IsTrue(Browser.driver.FindElement(By.CssSelector("a[href*='search?q=motor']")).Displayed);
         }
 
     }
